@@ -1,0 +1,39 @@
+name: Deploy Invoice
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set SSH config for legacy KexAlgorithms
+        run: |
+          mkdir -p ~/.ssh
+          echo "Host ${{ secrets.HOST }}" >> ~/.ssh/config
+          echo "  KexAlgorithms +diffie-hellman-group-exchange-sha256" >> ~/.ssh/config
+          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
+          chmod 600 ~/.ssh/config
+
+      - name: Deploy to DM24 (appleboy)
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: digitalmarketers24.com
+          username: digitrh2
+          key: ${{ secrets.SSH_DEPLOY_KEY_DM24 }}
+          port: 22
+          use_insecure_cipher: true
+          script: |
+              if [ -d /home/digitrh2/elevatesofts24.com/elevateinvoice-2025 ]; then
+                cd /home/digitrh2/elevatesofts24.com/elevateinvoice-2025
+                git fetch origin
+                git reset --hard origin/main
+              else
+                echo "Directory does not exist: /home/digitrh2/elevatesofts24.com/elevateinvoice-2025"
+              fi

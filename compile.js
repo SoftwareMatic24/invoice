@@ -1,3 +1,4 @@
+// E1
 const fs = require('fs');
 const CleanCSS = require('clean-css');
 const UglifyJS = require('uglify-js');
