@@ -1,0 +1,58 @@
+.ck-content h2 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.ck-content h3 {
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.ck-content h4 {
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.ck-content p {
+	margin-bottom: 1rem;
+}
+
+.ck-content strong {
+	font-weight: 600;
+}
+
+.ck-content blockquote {
+	margin-bottom: 1rem;
+}
+
+.ck-content ul,
+.ck-content ol {
+	padding-left: 1.6rem;
+	line-height: 1.7;
+	margin-bottom: 1rem;
+}
+
+.ck-content img {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.ckeditor-remove-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	fill: #fff;
+	background-color: var(--clr-red-400);
+	width: 2rem;
+	height: 2rem;
+	padding: 0.5rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+}
+
+#content-list .ck-editor__editable {
+	min-height: 300px !important;
+}

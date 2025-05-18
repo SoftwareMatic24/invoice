@@ -1,0 +1,77 @@
+.price-plans {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.price-plan {
+	width: calc(33.33% - 2rem);
+	border: 0.1rem solid var(--clr-neutral-400);
+	border-radius: 1.2rem;
+}
+
+.price-plan-header {
+	padding: 3rem 3rem 2rem 3rem;
+}
+
+.price-plan-heading {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.price-plan-description {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
+
+.price-plan-price {
+	font-size: 2.2rem;
+	font-weight: 600;
+	margin-top: 1rem;
+}
+
+.price-plan-price span {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.price-plan-button {
+	font-size: 1.4rem;
+	margin-top: 1.5rem;
+}
+
+.price-plan-body {
+	padding: 3rem 3rem 2rem 3rem;
+	padding-top: 2rem;
+	border-top: 0.1rem solid var(--clr-neutral-200);
+}
+
+.price-plan-body ul {
+	list-style: none;
+}
+
+.price-plan-body ul li {
+	font-size: 1.5rem;
+	padding: 0.5rem 0;
+}
+
+.price-plan-text-group p {
+	font-size: 1.6rem;
+}
+
+.price-plan-text-group p b {
+	font-weight: 600;
+}
+
+.price-plan-info-heading {
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.price-plan-info-text b {
+	font-weight: 600;
+}
+
+.price-plan-info .price-plan-info-text:not(:first-of-type) {
+	margin-top: 1rem;
+}

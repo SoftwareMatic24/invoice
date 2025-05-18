@@ -1,0 +1,12 @@
+{
+	"========== Components Plugin ==========": "",
+	"components": "Components",
+	"add new component": "Add new component",
+	"save component": "Save component",
+	"edit component": "Edit component",
+	"add new section": "Add new section",
+	"instructions": "Instructions",
+	"set as entity image": "Set as entity image",
+	"visibility-field-required": "The visibility field is required.",
+	"permanent-component-no-delete-notification-description": "This is a permanent component and can not be deleted."
+}

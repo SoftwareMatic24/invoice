@@ -1,0 +1,22 @@
+{
+	"========== Subscription Plugin ==========": "",
+	"subscriber": "Abonnent",
+	"subscriber email": "E-Mail des Abonnenten",
+	"package": "Paket",
+	"subscription date": "Abonnementdatum",
+	"package limits": "Paketlimits",
+	"subscription packages": "Abonnementpakete",
+	"new package": "Neues Paket",
+	"new subscription package": "Neues Abonnementpaket",
+	"update subscription package": "Abonnementpaket aktualisieren",
+	"subscription package classification": "Abonnementpaketklassifizierung",
+	"package subscribers": "Paketabonnenten",
+	"new subscriber": "Neuer Abonnent",
+	"update subscriber": "Abonnent aktualisieren",
+	"your subscription package": "Ihr Abonnementpaket",
+	"expiry-time-based-on": "Die Ablaufdatumszeit basiert auf",
+	"package-limit-numeric": "Das Paketlimit muss ein numerischer Wert sein.",
+	"package-subscription-notification-heading": "Erfolgreich abonniert",
+	"package-subscription-notification-description": "Sie haben das Paket erfolgreich abonniert.",
+	"subscriber-save-notification-description": "Der Abonnent wurde gespeichert."
+}

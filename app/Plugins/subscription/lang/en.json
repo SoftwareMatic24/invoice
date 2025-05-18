@@ -1,0 +1,22 @@
+{
+	"========== Subscription Plugin ==========": "",
+	"subscriber": "Subscriber",
+	"subscriber email": "Subscriber email",
+	"package": "Package",
+	"subscription date": "Subscription date",
+	"package limits": "Package limits",
+	"subscription packages": "Subscription packages",
+	"new package": "New package",
+	"new subscription package": "New subscription package",
+	"update subscription package": "Update subscription package",
+	"subscription package classification": "Subscription package classification",
+	"package subscribers": "Package subscribers",
+	"new subscriber": "New subscriber",
+	"update subscriber": "Update subscriber",
+	"your subscription package": "Your subscription package",
+	"expiry-time-based-on": "The expiry date time is based on",
+	"package-limit-numeric": "Package limit must be a numeric value.",
+	"package-subscription-notification-heading": "Successfully subscribed",
+	"package-subscription-notification-description": "You have successfully subscribed to the package.",
+	"subscriber-save-notification-description": "The subscriber has been saved."
+}

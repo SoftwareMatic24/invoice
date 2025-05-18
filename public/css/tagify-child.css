@@ -1,0 +1,41 @@
+.tagify {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: var(--clr-neutral-700);
+	background-color: transparent;
+	width: 100%;
+	padding: 0.4rem 0.4rem;
+	border-radius: 4px;
+	border: 1px solid var(--clr-neutral-300);
+}
+
+.tagify:focus-within {
+	outline: none;
+	border-color: var(--clr-primary-400);
+}
+
+.tagify {
+	width: 100%;
+	max-width: 700px;
+}
+
+.tags-look .tagify__dropdown__item {
+	display: inline-block;
+	border-radius: 3px;
+	padding: .3em .5em;
+	border: 1px solid #CCC;
+	background: #F3F3F3;
+	margin: .2em;
+	font-size: .85em;
+	color: black;
+	transition: 0s;
+}
+
+.tags-look .tagify__dropdown__item--active {
+	color: black;
+}
+
+.tags-look .tagify__dropdown__item:hover {
+	background: var(--clr-neutral-300);
+	border-color: var(--clr-neutral-400);
+}

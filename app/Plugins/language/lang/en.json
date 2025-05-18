@@ -1,0 +1,18 @@
+{
+	"=========== Language Plugin ==========": "",
+	"languages": "Languages",
+	"language": "Language",
+	"new language": "New language",
+	"update language": "Update language",
+	"manage languages": "Manage Languages",
+	"direction": "Direction",
+	"code": "Code",
+	"translations": "Translations",
+	"theme translation": "Theme translation",
+	"language settings": "Language settings",
+	"portal language": "Portal language",
+	"at-least-one-primary-language": "There must be at least one primary language.",
+	"primary-language-must-be-active": "Primary language must remain active.",
+	"language-already-in-use": "This language is already in use.",
+	"primary-language-not-deleteable-notification-description": "Primary language can not be delete."
+}

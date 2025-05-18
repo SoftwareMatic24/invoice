@@ -1,0 +1,12 @@
+{
+	"========== Components Plugin ==========": "",
+	"components": "Komponenten",
+	"add new component": "Neue Komponente hinzufügen",
+	"save component": "Komponente speichern",
+	"edit component": "Komponente bearbeiten",
+	"add new section": "Neue Sektion hinzufügen",
+	"instructions": "Anweisungen",
+	"set as entity image": "Als Entitätsbild festlegen",
+	"visibility-field-required": "Das Sichtbarkeitsfeld ist erforderlich.",
+	"permanent-component-no-delete-notification-description": "Dies ist eine permanente Komponente und kann nicht gelöscht werden."
+}

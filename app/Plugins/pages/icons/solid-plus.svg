@@ -1,0 +1,8 @@
+<svg id="solid-plus" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" x="0" y="0" viewBox="0 0 512 512">
+	<g>
+		<path d="M256 439.98c-13.81 0-25-11.19-25-25V97.02c0-13.81 11.19-25 25-25s25 11.19 25 25v317.96c0 13.81-11.19 25-25 25z" >
+		</path>
+		<path d="M414.98 281H97.02c-13.81 0-25-11.19-25-25s11.19-25 25-25h317.96c13.81 0 25 11.19 25 25s-11.19 25-25 25z">
+		</path>
+	</g>
+</svg>

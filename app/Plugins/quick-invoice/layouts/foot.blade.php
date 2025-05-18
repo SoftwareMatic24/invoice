@@ -1,0 +1,1 @@
+{!! loadPluginFile('css/style.css', 'quick-invoice') !!}

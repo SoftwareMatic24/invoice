@@ -1,0 +1,15 @@
+{
+	"=========== Currency Plugin ==========": "",
+	"change currency": "Change currency",
+	"choose a currency": "Choose a currency",
+	"currency": "Currency",
+	"symbol": "Symbol",
+	"exchange rate": "Exchange rate",
+	"new currency": "New currency",
+	"update currency": "Update currency",
+	"manage currencies": "Manage currencies",
+	"currency-already-exists": "The currency already exists.",
+	"currency-field-required": "The currency field is required.",
+	"symbol-field-required": "The symbol field is required.",
+	"primary-currency-not-deletable": "The primary currency can not be deleted."
+}
