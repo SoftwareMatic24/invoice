@@ -34,3 +34,6 @@ yarn-error.log
 !/lang/*-original.json
 /documentation
 **/seeders/*-private-*
+
+
+/app/Plugins/quick-invoice/app/classes/InvoiceConfig.php
