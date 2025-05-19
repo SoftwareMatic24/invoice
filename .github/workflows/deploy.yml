@@ -45,3 +45,11 @@ jobs:
               else
                 echo "Directory does not exist: /home/digitrh2/elevatesofts24.com/elevatebill-2025"
               fi
+
+              if [ -d /home/digitrh2/novasoft24.com/novainvoice-2025 ]; then
+                cd /home/digitrh2/novasoft24.com/novainvoice-2025
+                git fetch origin
+                git reset --hard origin/main
+              else
+                echo "Directory does not exist: /home/digitrh2/novasoft24.com/novainvoice-2025"
+              fi
