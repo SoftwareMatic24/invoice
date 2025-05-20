@@ -69,3 +69,11 @@ jobs:
               else
                 echo "Directory does not exist: /home/digitrh2/aspiresofts.com/aspireinvoice-2025"
               fi
+
+              if [ -d /home/digitrh2/aspiresofts.com/aspirebill-2025 ]; then
+                cd /home/digitrh2/aspiresofts.com/aspirebill-2025
+                git fetch origin
+                git reset --hard origin/main
+              else
+                echo "Directory does not exist: /home/digitrh2/aspiresofts.com/aspirebill-2025"
+              fi
