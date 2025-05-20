@@ -94,3 +94,11 @@ jobs:
               else
                 echo "Directory does not exist: /home/jobsah2x/sparksoft24.com/sparkinvoice-001"
               fi
+
+              if [ -d /home/jobsah2x/sparksoft24.com/sparkbill-001 ]; then
+                cd /home/jobsah2x/sparksoft24.com/sparkbill-001
+                git fetch origin
+                git reset --hard origin/main
+              else
+                echo "Directory does not exist: /home/jobsah2x/sparksoft24.com/sparkbill-001"
+              fi
